@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm run *)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm remove *)",
+      "Bash(pnpm add *)",
+      "Bash(taskkill /F /IM electron.exe、)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

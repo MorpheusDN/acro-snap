@@ -1,0 +1,43 @@
+/* AcroSnap global styles */
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    'Segoe UI Variable',
+    'Segoe UI',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  overflow: hidden;
+}
+
+/* KaTeX overrides - prevent overflow */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.katex {
+  font-size: 1em;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.4);
+  border-radius: 2px;
+}
